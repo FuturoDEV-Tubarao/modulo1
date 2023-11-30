@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcula Frete | M1S03E1</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        text-align: center;
+        background-color: rgb(255, 237, 214);
+      }
+      h1 {
+        font-size: 30px;
+        color: rgb(40, 19, 0);
+      }
+      h2 {
+        font-size: 18px;
+        color: rgb(40, 19, 0);
+      }
+      h2 span {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        box-sizing: border-box;
+        border: 1px solid #888;
+        border-radius: 100%;
+      }
+      ul {
+        width: 250px;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        list-style: none;
+        gap: 10px;
+      }
+      li {
+        border: 1px solid #888;
+        padding: 8px 10px;
+        border-radius: 3px;
+        background-color: #fff;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+      li span {
+        flex-grow: 1;
+        text-align: left;
+        /* text-decoration: line-through; */
+      }
+      li:last-child span {
+        /* text-decoration: line-through; */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lista de Afazeres</h1>
+
+    <input type="text" placeholder="Digite uma tarefa..." />
+    <button>Adicionar</button>
+
+    <ul>
+      <li>
+        <input type="checkbox" name="" id="" />
+        <span>Estudar HTML e CSS</span>
+        <button>🗑️</button>
+      </li>
+      <li>
+        <input type="checkbox" name="" id="" />
+        <span>Estudar JavaScript</span>
+        <button>🗑️</button>
+      </li>
+      <li>
+        <input type="checkbox" name="" id="" />
+        <span>Fazer exercícios</span>
+        <button>🗑️</button>
+      </li>
+    </ul>
+
+    <h2>Quantidade de tarefas <span>3</span></h2>
+
+    <script src="app.js"></script>
+  </body>
+</html>

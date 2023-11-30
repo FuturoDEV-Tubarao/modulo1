@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lanchonete | M1S03E6</title>
+  </head>
+  <body>
+    <h1>Lanchonete</h1>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Código</th>
+          <th>Produto</th>
+          <th>Valor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1123</td>
+          <td>Hambúrguer</td>
+          <td>R$ 12,00</td>
+        </tr>
+        <tr>
+          <td>3423</td>
+          <td>Sanduíche de pernil</td>
+          <td>R$ 9,00</td>
+        </tr>
+        <tr>
+          <td>4521</td>
+          <td>Bauru</td>
+          <td>R$ 15,00</td>
+        </tr>
+        <tr>
+          <td>5322</td>
+          <td>Sanduíche de mortadela</td>
+          <td>R$ 34,99</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br />
+
+    <input
+      type="number"
+      name="codigo-prod"
+      id="codigo-prod"
+      placeholder="Código do produto"
+    />
+    <input
+      type="number"
+      name="quantidade"
+      id="quantidade"
+      placeholder="Quantidade"
+    />
+
+    <button id="pedir">Fazer Pedido</button>
+
+    <p id="valor-pedido"></p>
+
+    <script src="app.js"></script>
+  </body>
+</html>

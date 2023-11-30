@@ -1,0 +1,14 @@
+{
+  "tarefas": [
+    {
+      "id": 1,
+      "name": "Lavar",
+      "done": true
+    },
+    {
+      "id": 2,
+      "name": "Secar",
+      "done": false
+    }
+  ]
+}
