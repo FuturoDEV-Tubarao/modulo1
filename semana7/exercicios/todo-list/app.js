@@ -6,21 +6,13 @@ const listaTarefas = document.getElementById("lista-tarefas");
 const spanQtd = document.getElementById("qtd-tarefas");
 
 let listaControle = [
+  /*
   {
     id: 1,
     nome: "Lavar",
     feito: true,
   },
-  {
-    id: 2,
-    nome: "Secar",
-    feito: false,
-  },
-  {
-    id: 3,
-    nome: "Guardar",
-    feito: false,
-  },
+  */
 ];
 
 function salvarNoLocalStorage() {
