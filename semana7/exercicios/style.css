@@ -1,0 +1,60 @@
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  font-family: sans-serif;
+  background-color: rgb(253, 241, 223);
+}
+
+#app-container {
+  margin: 0 auto;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+#formulario {
+  display: flex;
+  gap: 8px;
+}
+
+#campo-tarefa {
+  flex-grow: 1;
+}
+
+#lista-tarefas {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item {
+  display: flex;
+  gap: 8px;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  padding: 6px;
+}
+
+.item span {
+  flex-grow: 1;
+}
+
+.item input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+}
